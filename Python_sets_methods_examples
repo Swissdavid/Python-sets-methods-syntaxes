@@ -1,0 +1,63 @@
+print("Difference")
+
+i = {1,2,3,4,5,"X"}
+j = {"Araa","zero", "X", 1,2,3, "X"}
+
+print(i)
+print(i.difference(j))
+print(i)
+
+print("=" * 30)
+
+print("Difference_update")
+
+p = {1,2,3,4,5,"X"}
+o = {"Araa","zero", "X", 1,2,3, "X"}
+
+print(p)
+p.difference_update(o)
+print(p)
+
+print("=" * 30)
+
+print("intersection")
+
+i = {1,2,3,4,5,"X"}
+j = {"Araa","zero", "X", 1,2,3, "X"}
+
+print(i)
+print(i.intersection(j))
+print(i)
+
+print("=" * 30)
+
+print("intersection_update")
+
+l = {1,2,3,4,5,"X"}
+s = {"Araa","zero", "X", 1,2,3, "X"}
+
+print(l)
+l.intersection_update(s)
+print(l)
+
+print("=" * 30)
+
+print("symetric_difference")
+
+g = {1,2,3,4,5,"X"}
+k = {"Araa","zero", "X", 1,2,3}
+
+print(g)
+print(g.symmetric_difference(k))
+print(g)
+
+print("=" * 30)
+
+print("symetric_difference")
+
+gh = {1,2,3,4,5,"X"}
+jk = {"Araa","zero", "X", 1,2,3}
+
+print(gh)
+gh.symmetric_difference_update(jk)
+print(gh)
