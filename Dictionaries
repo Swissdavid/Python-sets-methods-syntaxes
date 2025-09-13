@@ -62,3 +62,35 @@ print(b)
 
 print(main.keys())
 print(main.values())
+
+user = {"name":"Aharon"}
+print(user)
+print(user.setdefault("age", 78))
+print(user)
+
+print("=" * 40)
+
+print("popitem")
+
+member = {
+    "name": "peter",
+    "kill": "ps5",
+}
+
+print(member)
+member.update({"age": 37})
+print(member.popitem())
+print("=" * 40)
+
+print("items")
+
+view = {
+    "name": "johm",
+    "skills" : "Xbox",
+}
+allitems = view.items()
+print(view)
+view["age"] = 36
+
+print(allitems)
+
