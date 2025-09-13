@@ -61,3 +61,31 @@ jk = {"Araa","zero", "X", 1,2,3}
 print(gh)
 gh.symmetric_difference_update(jk)
 print(gh)
+
+lo = {1,2,3,4}
+pl = {1,2,3}
+hh = {1,2,3,4,5}
+
+print("(issuperset)")
+print(lo.issuperset(pl))    #True
+print(lo.issuperset(hh))    #False
+
+print("=" * 20)
+
+print("(issubset)")
+loi = {1,2,3,4}
+pli = {1,2,3}
+hhh = {1,2,3,4,5}
+
+print(loi.issubset(pli))    #False
+print(loi.issubset(hhh))    #True
+
+print("=" * 20)
+
+print("(isdisjoint)")
+loq = {1,2,3,4}
+plq = {1,2,3}
+plw = {6,7,8,9,0}
+
+print(loq.isdisjoint(plq))  #False
+print(loq.isdisjoint(plw))  #True
