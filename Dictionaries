@@ -1,0 +1,64 @@
+# user = {
+#     "name" : "Araa",
+#     "age"  :  42,
+#     "country": "Swiss",
+#     "Skills" : ["Architectre", "Engineering", "Math"],
+#     "rating" : 10.5
+# }
+#
+# print(user)
+# print(user["name"])
+# print(user.get("county"))
+# print(user.keys())
+# print(user.values())
+from urllib.parse import uses_relative
+
+# languages = {
+#     "one": {
+#         "name": "html",
+#         "progress": "80",
+#     },
+#     "Tow":{
+#         "name": "css",
+#         "progress": "90",
+#     },
+#     "Three":{
+#         "name":"js",
+#         "progress": "0",
+#     }
+# }
+# print(languages)
+# print(languages["one"])
+# print(languages["Three"]["name"])
+#
+# print(len(languages))
+# print(len(languages["Tow"]))
+#
+
+
+# user = {"name": "ARAA"}
+#
+# print(user)
+# user.clear()
+# print(user)
+
+member = {"name":"Ara"}
+print(member)
+member["Age"] = 78
+print(member)
+
+member.update({"country": "Swiss"})
+print(member)
+
+#copy
+
+main = {"name":"Ara"}
+b = main.copy()
+
+print(b)
+main.update({"skill":"Fighting"})
+print(main)
+print(b)
+
+print(main.keys())
+print(main.values())
